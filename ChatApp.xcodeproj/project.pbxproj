@@ -14,6 +14,22 @@
 		89E2E5CD1B1481990055C06D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E2E5CC1B1481990055C06D /* Images.xcassets */; };
 		89E2E5D01B1481990055C06D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E2E5CE1B1481990055C06D /* LaunchScreen.xib */; };
 		89E2E5DC1B1481990055C06D /* ChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2E5DB1B1481990055C06D /* ChatAppTests.m */; };
+		89E2E5E71B1482210055C06D /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2E5E61B1482210055C06D /* ChatViewController.m */; };
+		89E2E6021B14896D0055C06D /* AKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2E6011B14896D0055C06D /* AKTextView.m */; };
+		89E2E6051B148C7C0055C06D /* ChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2E6041B148C7C0055C06D /* ChatViewCell.m */; };
+		89E2E6071B14937D0055C06D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6061B14937D0055C06D /* Parse.framework */; };
+		89E2E6091B1493B20055C06D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6081B1493B20055C06D /* AudioToolbox.framework */; };
+		89E2E60B1B1493CF0055C06D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E60A1B1493CF0055C06D /* CFNetwork.framework */; };
+		89E2E60D1B1493D30055C06D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E60C1B1493D30055C06D /* CoreGraphics.framework */; };
+		89E2E60F1B1493D70055C06D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E60E1B1493D70055C06D /* CoreLocation.framework */; };
+		89E2E6111B1493E00055C06D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6101B1493E00055C06D /* MobileCoreServices.framework */; };
+		89E2E6151B1493F00055C06D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6141B1493F00055C06D /* QuartzCore.framework */; };
+		89E2E6171B14941A0055C06D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6161B14941A0055C06D /* Security.framework */; };
+		89E2E6191B14941E0055C06D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6181B14941E0055C06D /* StoreKit.framework */; };
+		89E2E61B1B1494280055C06D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E61A1B1494280055C06D /* SystemConfiguration.framework */; };
+		89E2E61D1B14943B0055C06D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E61C1B14943B0055C06D /* libz.dylib */; };
+		89E2E61F1B1494400055C06D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E61E1B1494400055C06D /* libsqlite3.dylib */; };
+		89E2E6211B1494D30055C06D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E2E6201B1494D30055C06D /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,26 @@
 		89E2E5D51B1481990055C06D /* ChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E2E5DA1B1481990055C06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89E2E5DB1B1481990055C06D /* ChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAppTests.m; sourceTree = "<group>"; };
+		89E2E5E51B1482210055C06D /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		89E2E5E61B1482210055C06D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		89E2E6001B14896D0055C06D /* AKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTextView.h; sourceTree = "<group>"; };
+		89E2E6011B14896D0055C06D /* AKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTextView.m; sourceTree = "<group>"; };
+		89E2E6031B148C7C0055C06D /* ChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewCell.h; sourceTree = "<group>"; };
+		89E2E6041B148C7C0055C06D /* ChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewCell.m; sourceTree = "<group>"; };
+		89E2E6061B14937D0055C06D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		89E2E6081B1493B20055C06D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		89E2E60A1B1493CF0055C06D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		89E2E60C1B1493D30055C06D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89E2E60E1B1493D70055C06D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		89E2E6101B1493E00055C06D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		89E2E6121B1493E40055C06D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		89E2E6141B1493F00055C06D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89E2E6161B14941A0055C06D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		89E2E6181B14941E0055C06D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		89E2E61A1B1494280055C06D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89E2E61C1B14943B0055C06D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		89E2E61E1B1494400055C06D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		89E2E6201B1494D30055C06D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E2E61F1B1494400055C06D /* libsqlite3.dylib in Frameworks */,
+				89E2E61D1B14943B0055C06D /* libz.dylib in Frameworks */,
+				89E2E61B1B1494280055C06D /* SystemConfiguration.framework in Frameworks */,
+				89E2E6191B14941E0055C06D /* StoreKit.framework in Frameworks */,
+				89E2E6171B14941A0055C06D /* Security.framework in Frameworks */,
+				89E2E6151B1493F00055C06D /* QuartzCore.framework in Frameworks */,
+				89E2E6111B1493E00055C06D /* MobileCoreServices.framework in Frameworks */,
+				89E2E6211B1494D30055C06D /* Bolts.framework in Frameworks */,
+				89E2E60F1B1493D70055C06D /* CoreLocation.framework in Frameworks */,
+				89E2E60D1B1493D30055C06D /* CoreGraphics.framework in Frameworks */,
+				89E2E60B1B1493CF0055C06D /* CFNetwork.framework in Frameworks */,
+				89E2E6091B1493B20055C06D /* AudioToolbox.framework in Frameworks */,
+				89E2E6071B14937D0055C06D /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,20 @@
 		89E2E5B31B1481990055C06D = {
 			isa = PBXGroup;
 			children = (
+				89E2E6201B1494D30055C06D /* Bolts.framework */,
+				89E2E61E1B1494400055C06D /* libsqlite3.dylib */,
+				89E2E61C1B14943B0055C06D /* libz.dylib */,
+				89E2E61A1B1494280055C06D /* SystemConfiguration.framework */,
+				89E2E6181B14941E0055C06D /* StoreKit.framework */,
+				89E2E6161B14941A0055C06D /* Security.framework */,
+				89E2E6141B1493F00055C06D /* QuartzCore.framework */,
+				89E2E6121B1493E40055C06D /* QuickLook.framework */,
+				89E2E6101B1493E00055C06D /* MobileCoreServices.framework */,
+				89E2E60E1B1493D70055C06D /* CoreLocation.framework */,
+				89E2E60C1B1493D30055C06D /* CoreGraphics.framework */,
+				89E2E60A1B1493CF0055C06D /* CFNetwork.framework */,
+				89E2E6081B1493B20055C06D /* AudioToolbox.framework */,
+				89E2E6061B14937D0055C06D /* Parse.framework */,
 				89E2E5BE1B1481990055C06D /* ChatApp */,
 				89E2E5D81B1481990055C06D /* ChatAppTests */,
 				89E2E5BD1B1481990055C06D /* Products */,
@@ -85,6 +148,12 @@
 				89E2E5C41B1481990055C06D /* AppDelegate.m */,
 				89E2E5C61B1481990055C06D /* ViewController.h */,
 				89E2E5C71B1481990055C06D /* ViewController.m */,
+				89E2E5E51B1482210055C06D /* ChatViewController.h */,
+				89E2E5E61B1482210055C06D /* ChatViewController.m */,
+				89E2E6001B14896D0055C06D /* AKTextView.h */,
+				89E2E6011B14896D0055C06D /* AKTextView.m */,
+				89E2E6031B148C7C0055C06D /* ChatViewCell.h */,
+				89E2E6041B148C7C0055C06D /* ChatViewCell.m */,
 				89E2E5C91B1481990055C06D /* Main.storyboard */,
 				89E2E5CC1B1481990055C06D /* Images.xcassets */,
 				89E2E5CE1B1481990055C06D /* LaunchScreen.xib */,
@@ -219,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E2E6051B148C7C0055C06D /* ChatViewCell.m in Sources */,
 				89E2E5C81B1481990055C06D /* ViewController.m in Sources */,
+				89E2E6021B14896D0055C06D /* AKTextView.m in Sources */,
 				89E2E5C51B1481990055C06D /* AppDelegate.m in Sources */,
+				89E2E5E71B1482210055C06D /* ChatViewController.m in Sources */,
 				89E2E5C21B1481990055C06D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +419,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatApp",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,6 +436,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatApp",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +500,7 @@
 				89E2E5E11B1481990055C06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E2E5E21B1481990055C06D /* Build configuration list for PBXNativeTarget "ChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +509,7 @@
 				89E2E5E41B1481990055C06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
